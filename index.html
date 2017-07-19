@@ -1,1 +1,102 @@
-Hello Anthony
+<html>
+<head>
+  <title>Reasons to go Tokyo, Japan</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Revalia|Wallpoet" rel="stylesheet">
+</head>
+<body>
+  <div class="container" id="box">
+    <header>Casual Website on Tokyo</header>
+    <button id=myfunction>
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </button>
+    <div class="topNav">
+      <a class="active" href=#sectionIntro>Intro</a>
+      <a href="#sectionTrivia">Trivia</a>
+      <a href="#sectionWishlist">Wishlist/Gallery</a>
+      <a href="#sectionLocation">Location</a>
+    </div>
+  </div>
+
+
+  <section class="section sectionIntro" id="sectionIntro">
+    <h1> Tokyo</h1>
+    <button id="button1" class="test">Want to say Hello ?</button>
+    <img src=https://www.laundrytown.com/wp-content/uploads/2016/05/tokyo-09.jpg>
+    <p>Tokyo, the capital city of Japan, is a city where ultramodern architecture with its traditional counterpart.
+      The city its self is a oxymoron filled from Robots roaming around the streets to traditional temples and shrines around the city.
+      It is the centre of Japans business as the 11th most expensive city global and is ranked 1st as The World's Most Safest Cites.
+      The question is less 'Why Tokyo ?' and more 'Why not Tokyo ?'
+      Just remember you're not the only one who wants to go.
+      With 24.04 million tourists going to Japan in 2016, wouldn't you want to be apart of the 2017 group ?
+      So if you're still wondering "Why Japan ?" I think you should start thinking more about "What to do there ?" which will be explained further on.
+    </p>
+  </section>
+
+
+  <section class="section sectionTrivia" id="sectionTrivia">
+    <h1>Trivia</h1>
+      <h2>Samurais</h2>
+      <img src="https://s-media-cache-ak0.pinimg.com/736x/dc/77/c1/dc77c11e4522061ccae5b2283cdcec73--martial-arts-ninjas.jpg"
+      alt="This picture is a samurai covered in his shadow under a sun. It is traditionally drawn using ink + brushes">
+      <p>Samurais were warriors in the far east, mainly in Japan and China, who used special swords and fought for their morals
+        sticking to their honor. They were quite self rightous and stood against anything they deemed wrong.
+        Samurai were the military nobility and officer caste of medieval and early-modern Japan.
+
+        In Japanese, they are usually referred to as bushi or buke.
+        According to translator William Scott Wilson: "In Chinese, the character was originally a verb meaning "to wait upon", "accompany persons" in the upper ranks of society, and this is also true of the original term in Japanese, saburau.
+        In both countries the terms were nominalized to mean "those who serve in close attendance to the nobility", the pronunciation in Japanese changing to saburai.
+        According to Wilson, an early reference to the word "samurai" appears in the Kokin Wakash&#363; (905-914), the first imperial anthology of poems, completed in the first part of the 10th century.
+    </p>
+      <h2>Artificial Intelligence</h2>
+      <img src="http://www.wolfgroup.co.uk/wp-content/uploads/2015/03/Artificisal-intelligence.jpg"
+      alt="It is a picture of a human brain created by multiple electrical circuits flowing in different directions.">
+      <p>Artificial intelligence (AI) is intelligence exhibited by machines.
+        In computer science, the field of AI research defines itself as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of success at some goal.
+        Colloquially, the term "artificial intelligence" is applied when a machine mimics "cognitive" functions that humans associate with other human minds, such as "learning" and "problem solving".
+        As machines become increasingly capable, mental facilities once thought to require intelligence are removed from the definition.
+        For instance, optical character recognition is no longer perceived as an example of "artificial intelligence", having become a routine technology.
+        Capabilities currently classified as AI include successfully understanding human speech, competing at a high level in strategic game systems (such as chess and Go), autonomous cars, intelligent routing in content delivery networks, military simulations, and interpreting complex data.
+      </p>
+  </section>
+
+
+  <section class="section sectionWishlist" id="sectionWishlist">
+    <h1>Wishlist/Gallery</h1>
+    <p>Here is my top 10 places to vist with pictures and discriptions on what to do there.
+      Click the image for extra details!
+    </p>
+    <div class="scrollMenu" id="gallery">
+      <button onclick="openPicture('Pic1')"><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg"></button>
+      <button onclick="openPicture('Pic2')"><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg"></button>
+      <button onclick="openPicture('Pic3')"><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg"></button>
+      <button onclick="openPicture('Pic4')"><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg"></button>
+      <button onclick="openPicture('Pic5')"><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg"></button>
+      <button onclick="openPicture('Pic6')"><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg"></button>
+      <button onclick="openPicture('Pic7')"><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg"></button>
+      <button onclick="openPicture('Pic8')"><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg"></button>
+      <button onclick="openPicture('Pic9')"><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg"></button>
+      <button onclick="openPicture('Pic10')"><img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg"></button>
+    </div>
+    <div id="Pic1" class="Pictures" style="display:none">
+      <h2>1. The Miraikan National Museum of Science and Innovation</h2>
+      <img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/170217171029-robots-science-museum-5-super-169.jpg">
+      <p>
+  </section>
+
+
+
+  <section class="section sectionLocation" id="sectionLocation">
+
+  </section>
+
+
+
+
+
+
+  <script src="java.js"></script>
+</body>
+</html>
