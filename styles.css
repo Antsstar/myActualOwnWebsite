@@ -111,7 +111,7 @@ button .bar1, .bar2, .bar3 {
 
 
 .scrollmenu {
-    background-color: #333;
+    background-color: rgb(244, 95, 50);
     overflow: auto;
     white-space: nowrap;
 }
@@ -125,8 +125,9 @@ button .bar1, .bar2, .bar3 {
   width: 20%;
 }
 
+
 h2{
   font-size:20px;
   font-family: "Revalia", cursive;
-  color: grey
+  color: rgb(244, 227, 75);
 }
