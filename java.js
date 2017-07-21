@@ -1,7 +1,7 @@
 var button = document.getElementById('buttton1');
 console.log(button);
 button1.addEventListener("click",function(){
-  alert('Hello');
+  alert("Kon'nichiwa");
 });
 
 var Box = document.getElementById("box");
